@@ -3,6 +3,17 @@
 :root{
     --dark-bg: #1f2937;
     --primary: #3882f6;
-    --contrast:#e5e7eb;
+    --offwhite:#e5e7eb;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: var(--dark-bg);
+    color: white;
+}
