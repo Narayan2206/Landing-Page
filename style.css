@@ -63,6 +63,8 @@ nav {
     display: flex;
     justify-content: center;
     padding: 6rem 0;
+    max-width: 1920px;
+    margin: auto;
 }
 
 .hero-container button {
@@ -144,7 +146,11 @@ nav {
     max-width: 1080px;
 }
 
-
+footer{
+    background-color: var(--dark-bg);
+    color: var(--text);
+    padding: 2.5rem 0;
+}
 
 
 /* Utility Classes */
